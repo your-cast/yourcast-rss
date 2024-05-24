@@ -10,6 +10,6 @@ COPY --chown=appuser:appuser . .
 
 RUN npm install
 
-RUN npm build
+RUN npm run build
 
 ENTRYPOINT ["node", "dist/main.js"]
