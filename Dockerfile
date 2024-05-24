@@ -6,9 +6,9 @@ WORKDIR /app
 
 USER appuser
 
-RUN npm install
-
 COPY --chown=appuser:appuser . .
+
+RUN npm install
 
 RUN npm build
 
