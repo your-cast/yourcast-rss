@@ -44,4 +44,4 @@ jobs:
         run: docker build . --file Dockerfile --tag kuchura/your-cast-rss:1.0.0-$(echo $GITHUB_SHA | cut -c1-7)
 
       - name: Docker Push
-        run: docker push kuchura/your-cast-frontend:1.0.0-$(echo $GITHUB_SHA | cut -c1-7)
+        run: docker push kuchura/your-cast-rss:1.0.0-$(echo $GITHUB_SHA | cut -c1-7)
