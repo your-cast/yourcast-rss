@@ -1,8 +1,8 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "yourcast-rss",
   "private": true,
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "YourCast rss feed generator",
   "license": "MIT",
   "scripts": {
     "build": "nest build",
