@@ -1,6 +1,6 @@
-FROM node:20.13-alpine3.20
+FROM node:22.13-alpine3.21
 
-RUN adduser -D -g AppUser -h /app -s /sbin/nologin appuser
+RUN adduser -D -g AppUser -h /app -s /sbin/nologin appuser && apk upgrade -U --no-cache
 
 WORKDIR /app
 
